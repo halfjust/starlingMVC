@@ -51,7 +51,7 @@ package com.creativebottle.starlingmvc.events
 
 		public function removeAllForDispatcher(target:EventDispatcher):void
 		{
-			for (var index:int = map.length - 1; index >= 0; index++)
+			for (var index:int = map.length - 1; index >= 0; index--)
 			{
 				var mapping:Object = map[index];
 
